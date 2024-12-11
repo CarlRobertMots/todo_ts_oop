@@ -10,6 +10,6 @@ app.use(express.urlencoded({extended: true}))
 
 app.use('/todos', todoRoutes)
 
-app.listen(3009, () => {
-    console.log('server is connected at port 3009')
+app.listen(3008, () => {
+    console.log('server is connected at port 3008')
 })
